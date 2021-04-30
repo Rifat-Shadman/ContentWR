@@ -1,0 +1,23 @@
+.sidebar{
+    /* background-image: linear-gradient(40deg, #9ea5a5,#d8e2e4); */
+    position: fixed;
+    width:max-content ;
+    text-decoration: none;
+    color:rgb(0, 0, 0) ;
+    font-family: 'Josefin Slab', serif;
+}
+.sidebar Link{
+    text-decoration: none; 
+    color: bisque;
+}
+.sidebar li{
+    margin-bottom: 2em;
+    color: bisque;
+}
+.sidebar li:hover span{
+    display: inline-block;
+    transform: translate(5px);
+}
+.sidebar svg{
+    margin-right: 5px;
+}
